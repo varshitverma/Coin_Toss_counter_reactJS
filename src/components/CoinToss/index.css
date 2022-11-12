@@ -1,0 +1,108 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  padding: 15px;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.card {
+  width: 500px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 90%;
+  }
+}
+
+.heading {
+  font-size: 45px;
+  color: #a35200;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 25px;
+  }
+}
+
+.desc {
+  font-size: 25px;
+  font-weight: 500;
+  color: #334155;
+}
+
+@media screen and (max-width: 576px) {
+  .desc {
+    font-size: 16px;
+  }
+}
+
+.image {
+  width: 260px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    width: 180px;
+    margin-bottom: 15px;
+  }
+}
+
+.button {
+  color: #a35200;
+  background-color: #f9d423;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
+
+.counter-container {
+  display: flex;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .counter-container {
+    margin-top: 15px;
+    flex-direction: column;
+  }
+}
+
+.side {
+  font-size: 20px;
+  color: #e2a139;
+  font-family: 'Bree Serif';
+}
+
+.count {
+  color: #475569;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 24px;
+  margin-right: 24px;
+}
